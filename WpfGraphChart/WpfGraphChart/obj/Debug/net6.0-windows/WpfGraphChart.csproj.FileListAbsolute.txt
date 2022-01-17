@@ -19,3 +19,6 @@ D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\WpfGraphCha
 D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\ref\WpfGraphChart.dll
 D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\WpfGraphChart.pdb
 D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\WpfGraphChart.genruntimeconfig.cache
+D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\PolyLineView.g.cs
+D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\PolyLineView.baml

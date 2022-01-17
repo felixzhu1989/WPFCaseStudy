@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\App.xaml
-1707325006
+3-173335215
 
-6-831232624
+11-787012415
 1941142463650
-HistogramView.xaml;
+HeatmapView.xaml;HistogramView.xaml;PolyLineView.xaml;
 
-False
+True
 

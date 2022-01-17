@@ -7,7 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="PolyLineView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="HistogramView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PolyLineView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
