@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BLL\\SmartParking.Client.BLL.csproj": {}
+  },
+  "projects": {
+    "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BLL\\SmartParking.Client.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BLL\\SmartParking.Client.BLL.csproj",
+        "projectName": "SmartParking.Client.BLL",
+        "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BLL\\SmartParking.Client.BLL.csproj",
+        "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj"
+              },
+              "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\SmartParking.Client.IBLL.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\SmartParking.Client.IBLL.csproj"
+              },
+              "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\SmartParking.Client.IDAL.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\SmartParking.Client.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj",
+        "projectName": "SmartParking.Client.Entity",
+        "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj",
+        "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\SmartParking.Client.IBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\SmartParking.Client.IBLL.csproj",
+        "projectName": "SmartParking.Client.IBLL",
+        "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\SmartParking.Client.IBLL.csproj",
+        "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IBLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.Entity\\SmartParking.Client.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\SmartParking.Client.IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\SmartParking.Client.IDAL.csproj",
+        "projectName": "SmartParking.Client.IDAL",
+        "projectPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\SmartParking.Client.IDAL.csproj",
+        "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.IDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

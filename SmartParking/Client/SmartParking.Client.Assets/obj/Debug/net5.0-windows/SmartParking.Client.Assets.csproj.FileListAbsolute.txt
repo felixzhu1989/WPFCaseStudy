@@ -1,0 +1,17 @@
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\bin\Debug\net5.0-windows\SmartParking.Client.Assets.deps.json
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\bin\Debug\net5.0-windows\SmartParking.Client.Assets.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\bin\Debug\net5.0-windows\ref\SmartParking.Client.Assets.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\bin\Debug\net5.0-windows\SmartParking.Client.Assets.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\Styles\ButtonStyles.baml
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets_MarkupCompile.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.g.resources
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.AssemblyInfoInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.AssemblyInfo.cs
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\ref\SmartParking.Client.Assets.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\Styles\BaseResources.baml
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\Styles\TextBoxStyle.baml
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Assets\obj\Debug\net5.0-windows\SmartParking.Client.Assets.csproj.AssemblyReference.cache

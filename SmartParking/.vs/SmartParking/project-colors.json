@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae81462a-8682-4403-bd6e-4d78480bb10d": {
+      "ProjectGuid": "ae81462a-8682-4403-bd6e-4d78480bb10d",
+      "DisplayName": "SmartParking.Server.Start",
+      "ColorIndex": 0
+    },
+    "349368e2-73e2-41b7-b2c6-97615dac22ea": {
+      "ProjectGuid": "349368e2-73e2-41b7-b2c6-97615dac22ea",
+      "DisplayName": "SmartParking.Server.EFCore",
+      "ColorIndex": 1
+    },
+    "39c7ef15-74ee-40ab-a1bb-0699f6bd0744": {
+      "ProjectGuid": "39c7ef15-74ee-40ab-a1bb-0699f6bd0744",
+      "DisplayName": "SmartParking.Server.Models",
+      "ColorIndex": 2
+    },
+    "92d36967-ea91-40a1-a1d5-b5f45d5004ba": {
+      "ProjectGuid": "92d36967-ea91-40a1-a1d5-b5f45d5004ba",
+      "DisplayName": "SmartParking.Server.IEFContext",
+      "ColorIndex": 3
+    },
+    "fe444d44-87a9-4afc-9ca2-16b6947217fe": {
+      "ProjectGuid": "fe444d44-87a9-4afc-9ca2-16b6947217fe",
+      "DisplayName": "SmartParking.Server.EFContext",
+      "ColorIndex": 4
+    },
+    "84441b62-9fa5-4ae6-9bba-ed67965aec8e": {
+      "ProjectGuid": "84441b62-9fa5-4ae6-9bba-ed67965aec8e",
+      "DisplayName": "SmartParking.Server.IConfiguration",
+      "ColorIndex": 5
+    },
+    "9f92e233-eee1-4254-8ca9-606e4ad76b56": {
+      "ProjectGuid": "9f92e233-eee1-4254-8ca9-606e4ad76b56",
+      "DisplayName": "SmartParking.Server.Configuration",
+      "ColorIndex": 6
+    },
+    "2c09dd74-dd9e-44be-8286-a566a4288f97": {
+      "ProjectGuid": "2c09dd74-dd9e-44be-8286-a566a4288f97",
+      "DisplayName": "SmartParking.Server.IService",
+      "ColorIndex": 7
+    },
+    "999deaba-1903-451f-9187-5ca30b14e2d2": {
+      "ProjectGuid": "999deaba-1903-451f-9187-5ca30b14e2d2",
+      "DisplayName": "SmartParking.Server.Service",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "9fbd4776-bdcb-4c90-b8d9-38902d373c20": {
+      "ProjectGuid": "9fbd4776-bdcb-4c90-b8d9-38902d373c20",
+      "DisplayName": "SmartParking.Client.Start",
+      "ColorIndex": 9
+    },
+    "8d5c49bc-8f2b-4b6c-ad57-0bddb7a0393b": {
+      "ProjectGuid": "8d5c49bc-8f2b-4b6c-ad57-0bddb7a0393b",
+      "DisplayName": "SmartParking.Client.Common",
+      "ColorIndex": 10
+    },
+    "22482468-f197-48a0-8337-eadd79fa957b": {
+      "ProjectGuid": "22482468-f197-48a0-8337-eadd79fa957b",
+      "DisplayName": "SmartParking.Client.Common",
+      "ColorIndex": 11
+    },
+    "4b620dfa-b5c6-4974-96b2-163ed66cf2fd": {
+      "ProjectGuid": "4b620dfa-b5c6-4974-96b2-163ed66cf2fd",
+      "DisplayName": "SmartParking.Client.IDAL",
+      "ColorIndex": 12
+    },
+    "13ecf55f-5fc3-4da1-83df-74fc9408dd92": {
+      "ProjectGuid": "13ecf55f-5fc3-4da1-83df-74fc9408dd92",
+      "DisplayName": "SmartParking.Client.DAL",
+      "ColorIndex": 13
+    },
+    "17d926d4-65fe-4cae-859b-cef2bba715cd": {
+      "ProjectGuid": "17d926d4-65fe-4cae-859b-cef2bba715cd",
+      "DisplayName": "SmartParking.Client.IBLL",
+      "ColorIndex": 14
+    },
+    "79b21577-399b-4564-8ce0-64ee5bb8d0c1": {
+      "ProjectGuid": "79b21577-399b-4564-8ce0-64ee5bb8d0c1",
+      "DisplayName": "SmartParking.Client.BLL",
+      "ColorIndex": 15
+    },
+    "3bd0aa35-29c5-4791-8b21-0954f66b526f": {
+      "ProjectGuid": "3bd0aa35-29c5-4791-8b21-0954f66b526f",
+      "DisplayName": "SmartParking.Client.Entity",
+      "ColorIndex": 0
+    },
+    "2a246fa7-bbc4-4645-ac0f-22c9146c6877": {
+      "ProjectGuid": "2a246fa7-bbc4-4645-ac0f-22c9146c6877",
+      "DisplayName": "SmartParking.Client.Assets",
+      "ColorIndex": 1
+    },
+    "11ed2123-587c-4a1b-a6fb-76ab0a32e32c": {
+      "ProjectGuid": "11ed2123-587c-4a1b-a6fb-76ab0a32e32c",
+      "DisplayName": "SmartParking.Client.MainModule",
+      "ColorIndex": 2
+    },
+    "ca88fdfa-6b9d-4d6a-b848-d2568f446a72": {
+      "ProjectGuid": "ca88fdfa-6b9d-4d6a-b848-d2568f446a72",
+      "DisplayName": "SmartParking.Client.BaseModule",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

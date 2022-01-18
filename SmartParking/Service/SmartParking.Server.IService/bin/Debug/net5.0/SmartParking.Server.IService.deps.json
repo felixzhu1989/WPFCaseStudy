@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SmartParking.Server.IService/1.0.0": {
+        "dependencies": {
+          "SmartParking.Server.Models": "1.0.0"
+        },
+        "runtime": {
+          "SmartParking.Server.IService.dll": {}
+        }
+      },
+      "SmartParking.Server.Models/1.0.0": {
+        "runtime": {
+          "SmartParking.Server.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartParking.Server.IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartParking.Server.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

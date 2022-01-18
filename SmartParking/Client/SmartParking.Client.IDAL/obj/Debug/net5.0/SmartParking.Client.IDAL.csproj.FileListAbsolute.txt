@@ -1,0 +1,12 @@
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\bin\Debug\net5.0\SmartParking.Client.IDAL.deps.json
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\bin\Debug\net5.0\SmartParking.Client.IDAL.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\bin\Debug\net5.0\ref\SmartParking.Client.IDAL.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\bin\Debug\net5.0\SmartParking.Client.IDAL.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.AssemblyInfoInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.AssemblyInfo.cs
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\ref\SmartParking.Client.IDAL.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.IDAL\obj\Debug\net5.0\SmartParking.Client.IDAL.csproj.AssemblyReference.cache

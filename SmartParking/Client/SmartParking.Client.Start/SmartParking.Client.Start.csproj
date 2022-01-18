@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartParking.Client.Assets\SmartParking.Client.Assets.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.BaseModule\SmartParking.Client.BaseModule.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.BLL\SmartParking.Client.BLL.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.Common\SmartParking.Client.Common.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.DAL\SmartParking.Client.DAL.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.IBLL\SmartParking.Client.IBLL.csproj" />
+    <ProjectReference Include="..\SmartParking.Client.MainModule\SmartParking.Client.MainModule.csproj" />
+  </ItemGroup>
+
+</Project>

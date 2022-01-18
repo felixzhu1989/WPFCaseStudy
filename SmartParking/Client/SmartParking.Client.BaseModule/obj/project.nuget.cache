@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "W+yST6qyIUNXq9PBYDLcnmml6pn7q19ootsAP5gUiyCR2gC2g6avJrFeJJH1MrA/SuEcUm55lktTN8a6bayw1A==",
+  "success": true,
+  "projectFilePath": "E:\\CSharp\\repos\\WPFCaseStudy\\SmartParking\\Client\\SmartParking.Client.BaseModule\\SmartParking.Client.BaseModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
+  ],
+  "logs": []
+}

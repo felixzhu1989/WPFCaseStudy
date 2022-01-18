@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SmartParking.Client.IBLL/1.0.0": {
+        "dependencies": {
+          "SmartParking.Client.Entity": "1.0.0"
+        },
+        "runtime": {
+          "SmartParking.Client.IBLL.dll": {}
+        }
+      },
+      "SmartParking.Client.Entity/1.0.0": {
+        "runtime": {
+          "SmartParking.Client.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartParking.Client.IBLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartParking.Client.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

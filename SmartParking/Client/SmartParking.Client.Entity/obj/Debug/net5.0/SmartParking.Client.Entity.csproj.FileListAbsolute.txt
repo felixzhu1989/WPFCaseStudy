@@ -1,0 +1,12 @@
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\bin\Debug\net5.0\SmartParking.Client.Entity.deps.json
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\bin\Debug\net5.0\SmartParking.Client.Entity.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\bin\Debug\net5.0\ref\SmartParking.Client.Entity.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\bin\Debug\net5.0\SmartParking.Client.Entity.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.AssemblyInfoInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.AssemblyInfo.cs
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\ref\SmartParking.Client.Entity.dll
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.pdb
+E:\CSharp\repos\SmartParking\Client\SmartParking.Client.Entity\obj\Debug\net5.0\SmartParking.Client.Entity.csproj.AssemblyReference.cache
