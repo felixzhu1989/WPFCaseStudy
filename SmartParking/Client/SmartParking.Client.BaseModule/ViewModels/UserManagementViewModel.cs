@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Threading;
 using Prism.Commands;
+using Prism.Events;
 using Prism.Regions;
 using Prism.Services.Dialogs;
 using SmartParking.Client.BaseModule.Models;
@@ -21,17 +22,18 @@ namespace SmartParking.Client.BaseModule.ViewModels
         public ObservableCollection<UserModel> UserList { get; set; } = new();
         //依赖注入
         private IUnityContainer unityContainer;
-        private IRegionManager regionManager;
-        private IUserBLL userBll;
         private IDialogService dialogService;
-        public UserManagementViewModel(IUnityContainer unityContainer, IRegionManager regionManager, IUserBLL userBll, IDialogService dialogService) : base(unityContainer, regionManager)
+        private IUserBLL userBll;
+        private IRoleBLL roleBll;
+        public UserManagementViewModel(IRegionManager regionManager, IUnityContainer unityContainer, IEventAggregator ea, IDialogService dialogService, IUserBLL userBll, IRoleBLL roleBll) : base(regionManager, unityContainer)
         {
             this.PageTitle = "系统用户管理";
 
             this.userBll = userBll;
+            this.roleBll = roleBll;
             this.unityContainer = unityContainer;
             this.dialogService = dialogService;
-            IsCanClose = false;//让窗口不能关闭
+            //IsCanClose = false;//让窗口不能关闭
 
             //进入页面就刷新并显示数据
             Refresh();
@@ -39,11 +41,13 @@ namespace SmartParking.Client.BaseModule.ViewModels
 
         public override void Refresh()
         {
+            //ShowLoading();
             //用户信息刷新
             UserList.Clear();
-            Task.Run(() =>
+            Task.Run(async () =>
             {
-                var users = userBll.GetAll().GetAwaiter().GetResult();
+                //var users = userBll.GetAll().GetAwaiter().GetResult();
+                var users = await userBll.GetAll();
                 foreach (var item in users)
                 {
                     UserModel userModel = new UserModel()
@@ -58,7 +62,8 @@ namespace SmartParking.Client.BaseModule.ViewModels
                         RealName = item.RealName
                     };
                     //用户角色
-                    var roles = userBll.GetRolesByUserId(userModel.UserId).GetAwaiter().GetResult();
+                    //var roles = userBll.GetRolesByUserId(userModel.UserId).GetAwaiter().GetResult();
+                    var roles = await roleBll.GetAllByUserId(item.UserId);
                     //填充
                     roles?.ForEach(r => userModel.Roles.Add(new RoleModel()
                     {
@@ -81,57 +86,96 @@ namespace SmartParking.Client.BaseModule.ViewModels
                     {
                         UserList.Add(userModel);
                     });
-
                 }
-
+                //HideLoading();
             });
-
-
-
-
         }
 
         public override void AddItem()
         {
             //添加用户信息
+            DialogParameters param = new DialogParameters { { "type", 0 } // 新增
+            };
+
+            ShowEditDialog(param);
 
         }
 
         private void EditItem(object obj)
         {
-            //弹窗，首先设计窗口
-            DialogParameters param = new DialogParameters();
-            param.Add("model", obj as UserModel);
-            dialogService.ShowDialog("ModifyUserDialog", param, result =>
+            DialogParameters param = new DialogParameters
             {
-                if (result.Result == ButtonResult.OK)
-                {
-                    //System.Windows.MessageBox.Show("数据保存成功", "提示");
-                    Refresh();
-                }
-            });
+                { "type", 1 }, //编辑
+                { "model", obj as UserModel }
+            };
+            ShowEditDialog(param);
+
+            //弹窗，首先设计窗口
+            //dialogService.ShowDialog("ModifyUserDialog", param, result =>
+            //{
+            //    if (result.Result == ButtonResult.OK)
+            //    {
+            //        System.Windows.MessageBox.Show("数据保存成功", "提示");
+            //        Refresh();
+            //    }
+            //});
 
         }
-        private void DeleteItem(object obj)
+        private void ShowEditDialog(DialogParameters param)
+        {
+            dialogService.ShowDialog(
+                "ModifyUserDialog",
+                param,
+                new Action<IDialogResult>(result =>
+                {
+                    if (result != null && result.Result == ButtonResult.OK)
+                    {
+                        System.Windows.MessageBox.Show("数据已保存", "提示");
+                        this.Refresh();
+                    }
+                }));
+        }
+
+
+        private async void DeleteItem(object obj)
         {
             if (System.Windows.MessageBox.Show("是否确定删除此用户信息？", "提示", System.Windows.MessageBoxButton.YesNo, System.Windows.MessageBoxImage.Question) == System.Windows.MessageBoxResult.Yes)
             {
                 var model = obj as UserModel;
                 //把用户的状态设置成不可用（逻辑删除），也可以物理删除
-                //if (model != null) await userBll.ChangeState(model.UserId, 0);
+                if (model != null) await userBll.ChangeState(model.UserId, 0);
                 Refresh();
             }
         }
         private void SetRoles(object obj)
         {
+            DialogParameters param = new DialogParameters
+            {
+                { "userId", (obj as UserModel).UserId }, // Dialog进行数据保存，知道对哪个用户进行操作
+                { "roles", (obj as UserModel).Roles.Select(r => r.RoleId).ToList() }
+            };
 
+            dialogService.ShowDialog(
+                "ModifyRolesDialog",
+                param,
+                new Action<IDialogResult>(result =>
+                {
+                    if (result != null && result.Result == ButtonResult.OK)
+                    {
+                        System.Windows.MessageBox.Show("角色分配完成", "提示");
+                        this.Refresh();
+                    }
+                }));
         }
+
         private void SetPassword(object obj)
         {
+           // ShowLoading("正在重置...");
             Task.Run(async () =>
             {
-                //await userBll.RestPassword(obj.ToString());
+                await userBll.ResetPassword((obj as UserModel).UserId.ToString());
                 System.Windows.MessageBox.Show("密码已重置", "提示");
+               // HideLoading();
             });
         }
     }

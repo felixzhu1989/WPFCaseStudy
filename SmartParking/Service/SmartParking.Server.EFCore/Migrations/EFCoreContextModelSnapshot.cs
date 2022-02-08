@@ -115,6 +115,10 @@ namespace SmartParking.Server.EFCore.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("real_name");
 
+                    b.Property<int>("State")
+                        .HasColumnType("int")
+                        .HasColumnName("state");
+
                     b.Property<string>("UserIcon")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("user_icon");

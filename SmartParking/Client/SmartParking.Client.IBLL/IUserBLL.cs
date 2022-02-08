@@ -13,7 +13,10 @@ namespace SmartParking.Client.IBLL
         Task<List<RoleEntity>> GetRolesByUserId(int userId);
 
         Task SaveUser(UserEntity userEntity);
-
+        
         Task ResetPassword(string userId);
+
+        Task ChangeState(int userId, int state);
+        Task UpdateRoles(int userId, List<int> roles);
     }
 }

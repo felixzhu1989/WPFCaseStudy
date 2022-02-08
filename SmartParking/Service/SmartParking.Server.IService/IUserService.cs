@@ -12,5 +12,7 @@ namespace SmartParking.Server.IService
         List<RoleInfo> GetRolesByUserId(int userId);
         void ResetPassword(int userId);
         void SaveUser(string data);
+        void ChangeState(int userId, int state);
+        void UpdateRoles(int userId, List<int> roles);
     }
 }

@@ -25,9 +25,8 @@ namespace SmartParking.Client.DAL
 
         public Task ResetPassword(string userId)
         {
-            Dictionary<string, HttpContent> param = new Dictionary<string, HttpContent>();
-            param.Add("userId",new StringContent(userId));
-            return PostDatas($"{domain}user/resetpwd", param);
+            Dictionary<string, HttpContent> param = new Dictionary<string, HttpContent> { { "userId", new StringContent(userId) } };
+            return PostDatas($"{domain}user/resetpwd", GetFormData(param));
         }
 
         public Task SaveUser(string data)
@@ -36,5 +35,24 @@ namespace SmartParking.Client.DAL
             content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
             return PostDatas($"{domain}user/save", content);
         }
+
+        public Task ChangeState(int userId, int state)
+        {
+            //  什么时候用Post  什么时候用Get     WebApi的开发人员去思考
+            Dictionary<string, HttpContent> param = new Dictionary<string, HttpContent>();
+            param.Add("userId", new StringContent(userId.ToString()));
+            param.Add("state", new StringContent(state.ToString()));
+
+            return this.PostDatas($"{domain}user/state", GetFormData(param));
+        }
+        public Task UpdateRoles(int userId, string roles)
+        {
+            Dictionary<string, HttpContent> param = new Dictionary<string, HttpContent>();
+            param.Add("userId", new StringContent(userId.ToString()));
+            param.Add("roles", new StringContent(roles));
+
+            return this.PostDatas($"{domain}user/roles", this.GetFormData(param));
+        }
+
     }
 }

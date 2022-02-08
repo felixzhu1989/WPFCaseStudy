@@ -42,9 +42,11 @@ namespace SmartParking.Client.Start
             //IOC容器 注册
             containerRegistry.Register<ILoginBLL,LoginBLL>();
             containerRegistry.Register<ILoginDAL,LoginDAL>();
+            containerRegistry.Register<IRoleDAL, RoleDAL>();
 
             containerRegistry.Register<IUserBLL,UserBLL>();
             containerRegistry.Register<IUserDAL,UserDAL>();
+            containerRegistry.Register<IRoleDAL, RoleDAL>();
 
 
         }

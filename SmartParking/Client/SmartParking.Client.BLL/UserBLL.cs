@@ -37,5 +37,15 @@ namespace SmartParking.Client.BLL
         {
             return userDal.ResetPassword(userId);
         }
+
+        public Task ChangeState(int userId, int state)
+        {
+            return userDal.ChangeState(userId, state);
+        }
+
+        public Task UpdateRoles(int userId, List<int> roles)
+        {
+            return userDal.UpdateRoles(userId, Newtonsoft.Json.JsonConvert.SerializeObject(roles));
+        }
     }
 }

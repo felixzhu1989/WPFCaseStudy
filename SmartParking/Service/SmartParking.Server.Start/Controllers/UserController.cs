@@ -59,8 +59,17 @@ namespace SmartParking.Server.Start.Controllers
         [Route("all")]
         public JsonResult GetUsers()
         {
-            return Json(userService.Query<SysUserInfo>(u => true));
+            return Json(userService.Query<SysUserInfo>(u =>u.State==1));
         }
+
+        [HttpPost]
+        [Route("state")]
+        public IActionResult UpdateState([FromForm] IFormCollection form)
+        {
+            userService.ChangeState(int.Parse(form["userId"]), int.Parse(form["state"]));
+            return Ok();
+        }
+
 
         [HttpGet]
         [Route("roles/{userId}")]

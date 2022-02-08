@@ -19,11 +19,12 @@ namespace SmartParking.Client.BaseModule.ViewModels
         private IUserBLL userBll;
         public ModifyUserDialogViewModel(IUserBLL userBll)
         {
-            this.userBll= userBll;
+            this.userBll = userBll;
 
         }
 
-        public string Title => "用户信息编辑";
+        private string title= "用户信息";
+        public string Title => title; 
         public event Action<IDialogResult>? RequestClose;
 
         public bool CanCloseDialog() => true;
@@ -33,10 +34,16 @@ namespace SmartParking.Client.BaseModule.ViewModels
 
         public void OnDialogOpened(IDialogParameters parameters)
         {
-            //根据传入的参数，动态判断，新增还是编辑，
+            //根据传入的参数，动态判断，新增还是修改
+            var type = parameters.GetValue<int>("type");
+            title = $"{(type == 0 ? "新增" : "修改")}{title}";
+            RaisePropertyChanged("Title");
             //接收编辑状态，获取要编辑的用户信息
-            MainModel = parameters.GetValue<UserModel>("model");
-
+            if (type == 1)
+            {
+                IsReadOnlyUserName = true;
+                MainModel = parameters.GetValue<UserModel>("model");
+            }
         }
 
         private UserModel mainModel = new UserModel();
@@ -45,6 +52,13 @@ namespace SmartParking.Client.BaseModule.ViewModels
             get => mainModel;
             set => SetProperty<UserModel>(ref mainModel, value);
         }
+        private bool isReadOnlyUserName = false;
+        public bool IsReadOnlyUserName
+        {
+            get => isReadOnlyUserName;
+            set => SetProperty<bool>(ref isReadOnlyUserName, value);
+        }
+
 
         //确认
         public ICommand ConfirmCommand

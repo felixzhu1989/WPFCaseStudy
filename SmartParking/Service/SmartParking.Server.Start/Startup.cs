@@ -35,6 +35,7 @@ namespace SmartParking.Server.Start
             services.AddTransient<ILoginService, LoginService>();
             services.AddTransient<IMenuService, MenuService>();
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IRoleService, RoleService>();
             //...继续注册新添加的服务
 
 

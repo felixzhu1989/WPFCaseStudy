@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,6 +13,7 @@ namespace SmartParking.Server.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]//自增列
         [Column("user_id")]//列名
         public int UserId { get; set; }
+
         [Column("user_name")]
         public string UserName { get; set; }
         [Column("real_name")]
@@ -22,6 +24,10 @@ namespace SmartParking.Server.Models
         public string UserIcon { get; set; }
         [Column("age")]
         public int Age { get; set; }
+
+        [DefaultValue(1)]
+        [Column("state")]
+        public int State { get; set; }
 
         //NotMapped特性，不映射到数据库中
         [NotMapped]
