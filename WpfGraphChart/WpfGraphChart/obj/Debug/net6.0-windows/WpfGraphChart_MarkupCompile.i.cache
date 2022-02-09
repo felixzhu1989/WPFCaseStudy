@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\
+E:\CSharp\repos\WPFCaseStudy\WpfGraphChart\WpfGraphChart\obj\Debug\net6.0-windows\
 WpfGraphChart
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\WPFCaseStudy\WpfGraphChart\WpfGraphChart\App.xaml
+E:\CSharp\repos\WPFCaseStudy\WpfGraphChart\WpfGraphChart\App.xaml
 3-173335215
 
-11-787012415
-1941142463650
+13-473846354
+194-164764702
 HeatmapView.xaml;HistogramView.xaml;PolyLineView.xaml;
 
 True

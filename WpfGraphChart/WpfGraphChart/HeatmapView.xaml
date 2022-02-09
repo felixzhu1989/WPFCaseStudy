@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:WpfGraphChart"
         mc:Ignorable="d"
         Title="HeatmapView" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <local:HeatmapChart Values="{Binding HeatValues}" />
 </Window>

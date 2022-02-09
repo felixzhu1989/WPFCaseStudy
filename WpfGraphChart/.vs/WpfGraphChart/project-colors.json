@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9c563752-44e5-4f23-af7e-ec7c871d3aee": {
+      "ProjectGuid": "9c563752-44e5-4f23-af7e-ec7c871d3aee",
+      "DisplayName": "WpfGraphChart",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
