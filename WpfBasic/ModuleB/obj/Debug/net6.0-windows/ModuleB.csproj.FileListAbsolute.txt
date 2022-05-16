@@ -1,0 +1,17 @@
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\bin\Debug\net6.0-windows\ModuleB.deps.json
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\bin\Debug\net6.0-windows\ModuleB.dll
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\bin\Debug\net6.0-windows\ref\ModuleB.dll
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\bin\Debug\net6.0-windows\ModuleB.pdb
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.csproj.AssemblyReference.cache
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\Views\ViewE.g.cs
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB_MarkupCompile.cache
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB_MarkupCompile.lref
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\Views\ViewE.baml
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.g.resources
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.AssemblyInfoInputs.cache
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.AssemblyInfo.cs
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.dll
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ref\ModuleB.dll
+E:\CSharp\repos\WPFCaseStudy\WpfBasic\ModuleB\obj\Debug\net6.0-windows\ModuleB.pdb

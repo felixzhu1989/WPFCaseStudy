@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d955d5c-2038-418b-8327-d4cb2c34c1cd": {
+      "ProjectGuid": "0d955d5c-2038-418b-8327-d4cb2c34c1cd",
+      "DisplayName": "WpfDiDemo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

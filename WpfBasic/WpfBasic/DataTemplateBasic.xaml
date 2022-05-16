@@ -1,0 +1,60 @@
+﻿<Page x:Class="WpfBasic.DataTemplateBasic"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      d:DesignHeight="450"
+      d:DesignWidth="800"
+      Title="DataTemplate">
+    <Grid>
+        <!--<ListBox x:Name="ColorList">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Border Width="10" Height="10" 
+                                Background="{Binding Code}"/>
+                        <TextBlock Margin="10,0" 
+                                   Text="{Binding Name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>-->
+        <DataGrid x:Name="ColorList"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Code}"
+                                    Header="Code" />
+                <DataGridTextColumn Binding="{Binding Name}"
+                                    Header="Name" />
+                <DataGridTemplateColumn Header="Preview">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Border Width="10" Height="10"
+                                        Background="{Binding Code}" />
+                                <TextBlock Margin="10,0"
+                                           Text="{Binding Name}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Action">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Margin="1" Content="Details" 
+                                        Background="Green"/>
+                                <Button Margin="1" Content="Update" 
+                                        Background="DeepSkyBlue"/>
+                                <Button Margin="1" Content="Delete" 
+                                        Background="Red"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

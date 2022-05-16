@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dac08203-0382-4464-a35e-9a2cd3a5cfbf": {
+      "ProjectGuid": "dac08203-0382-4464-a35e-9a2cd3a5cfbf",
+      "DisplayName": "WpfBasic",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "a8dc5aeb-47f2-46ab-8034-14f2ec37b28f": {
+      "ProjectGuid": "a8dc5aeb-47f2-46ab-8034-14f2ec37b28f",
+      "DisplayName": "WpfBasic",
+      "ColorIndex": 1
+    },
+    "5c45ba0d-d4f0-476b-b6ad-0a39486e5841": {
+      "ProjectGuid": "5c45ba0d-d4f0-476b-b6ad-0a39486e5841",
+      "DisplayName": "WpfMvvmLight",
+      "ColorIndex": 2
+    },
+    "c397d4aa-c97b-40fe-b1a1-e792fc3a0522": {
+      "ProjectGuid": "c397d4aa-c97b-40fe-b1a1-e792fc3a0522",
+      "DisplayName": "PrismFirst",
+      "ColorIndex": 3
+    },
+    "73cc3952-c487-4d45-9006-c7dc12b36b33": {
+      "ProjectGuid": "73cc3952-c487-4d45-9006-c7dc12b36b33",
+      "DisplayName": "ModuleA",
+      "ColorIndex": 4
+    },
+    "71b4d75d-c26e-4d06-b70e-2aa26be3d3c5": {
+      "ProjectGuid": "71b4d75d-c26e-4d06-b70e-2aa26be3d3c5",
+      "DisplayName": "ModuleB",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
